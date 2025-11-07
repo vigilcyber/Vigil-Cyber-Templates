@@ -1,0 +1,12 @@
+{
+  "displayName": "VC \u2013 Win \u2013 WHfB \u2013 Enable \u2013 Ring2 \u2013 v2.0",
+  "description": "Windows Hello for Business single-setting.",
+  "platforms": "windows10",
+  "settings": [
+    {
+      "name": "Ring2",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsHelloForBusiness/Enable",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "displayName": "VC \u2013 Win \u2013 Encryption \u2013 StoreRecoveryKeyAAD \u2013 Ring2 \u2013 v2.0",
+  "description": "BitLocker single-setting policy.",
+  "platforms": "windows10",
+  "settings": [
+    {
+      "name": "Ring2",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/BitLocker/StoreRecoveryInformationInAzureActiveDirectory",
+      "value": 1
+    }
+  ]
+}

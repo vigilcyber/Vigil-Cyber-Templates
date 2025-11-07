@@ -1,0 +1,12 @@
+{
+  "displayName": "VC \u2013 Win \u2013 ASR \u2013 BlockObfuscatedScripts \u2013 Ring2 \u2013 v2.0",
+  "description": "Attack Surface Reduction single-setting policy. Allowed values: 0=Off, 1=Audit, 2=Block.",
+  "platforms": "windows10",
+  "settings": [
+    {
+      "name": "Ring2",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionRules/5beb7efe-fd9a-4556-801d-275e5ffc04cc",
+      "value": 2
+    }
+  ]
+}

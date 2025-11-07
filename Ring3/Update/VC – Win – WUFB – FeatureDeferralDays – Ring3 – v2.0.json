@@ -1,0 +1,12 @@
+{
+  "displayName": "VC \u2013 Win \u2013 WUFB \u2013 FeatureDeferralDays \u2013 Ring3 \u2013 v2.0",
+  "description": "Windows Update for Business single-setting.",
+  "platforms": "windows10",
+  "settings": [
+    {
+      "name": "Ring3",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Update/DeferFeatureUpdatesPeriodInDays",
+      "value": 30
+    }
+  ]
+}

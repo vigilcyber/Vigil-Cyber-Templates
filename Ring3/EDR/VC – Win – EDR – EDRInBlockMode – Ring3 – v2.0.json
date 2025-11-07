@@ -1,0 +1,12 @@
+{
+  "displayName": "VC \u2013 Win \u2013 EDR \u2013 EDRInBlockMode \u2013 Ring3 \u2013 v2.0",
+  "description": "Microsoft Defender for Endpoint single-setting.",
+  "platforms": "windows10",
+  "settings": [
+    {
+      "name": "Ring3",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/EDRInBlockMode",
+      "value": 1
+    }
+  ]
+}

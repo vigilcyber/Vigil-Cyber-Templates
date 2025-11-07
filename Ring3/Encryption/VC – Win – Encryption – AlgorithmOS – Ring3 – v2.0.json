@@ -1,0 +1,12 @@
+{
+  "displayName": "VC \u2013 Win \u2013 Encryption \u2013 AlgorithmOS \u2013 Ring3 \u2013 v2.0",
+  "description": "BitLocker single-setting policy.",
+  "platforms": "windows10",
+  "settings": [
+    {
+      "name": "Ring3",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/BitLocker/EncryptionMethodWithXtsOs",
+      "value": "XtsAes256"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "displayName": "VC \u2013 Win \u2013 WHfB \u2013 UseBiometrics \u2013 Ring3 \u2013 v2.0",
+  "description": "Windows Hello for Business single-setting.",
+  "platforms": "windows10",
+  "settings": [
+    {
+      "name": "Ring3",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/WindowsHelloForBusiness/UseBiometrics",
+      "value": 1
+    }
+  ]
+}

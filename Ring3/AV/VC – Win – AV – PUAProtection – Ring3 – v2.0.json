@@ -1,0 +1,12 @@
+{
+  "displayName": "VC \u2013 Win \u2013 AV \u2013 PUAProtection \u2013 Ring3 \u2013 v2.0",
+  "description": "Microsoft Defender Antivirus single-setting policy.",
+  "platforms": "windows10",
+  "settings": [
+    {
+      "name": "Ring3",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/PUAProtection",
+      "value": 1
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "displayName": "VC \u2013 Win \u2013 ASR \u2013 BlockOfficeChildProc \u2013 Ring1 \u2013 v2.0",
+  "description": "Attack Surface Reduction single-setting policy. Allowed values: 0=Off, 1=Audit, 2=Block.",
+  "platforms": "windows10",
+  "settings": [
+    {
+      "name": "Ring1",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/Defender/AttackSurfaceReductionRules/56a863a9-875e-4185-98a7-b882c64b5ce5",
+      "value": 1
+    }
+  ]
+}

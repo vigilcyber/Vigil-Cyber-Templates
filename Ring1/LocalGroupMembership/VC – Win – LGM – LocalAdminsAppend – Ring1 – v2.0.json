@@ -1,0 +1,22 @@
+{
+  "displayName": "VC \u2013 Win \u2013 LGM \u2013 LocalAdminsAppend \u2013 Ring1 \u2013 v2.0",
+  "description": "Local group membership (sample). Update <YourAADGroupSID>.",
+  "platforms": "windows10",
+  "settings": [
+    {
+      "name": "Ring1",
+      "omaUri": "./Device/Vendor/MSFT/Policy/Config/LocalUsersAndGroups/LocalUsersAndGroups",
+      "value": {
+        "LocalUsersAndGroups": [
+          {
+            "Action": "Append",
+            "Group": "Administrators",
+            "Members": [
+              "SID:<YourAADGroupSID>"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
